@@ -19,4 +19,4 @@ class Solution:
                 self.result += node.val
         self.dfs(node.left, True)
         self.dfs(node.right, False)
-                
+                   
