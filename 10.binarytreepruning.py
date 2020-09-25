@@ -3,4 +3,4 @@ def pruneTree(self, root):
         root.left = self.pruneTree(root.left)
         root.right = self.pruneTree(root.right)
         if not root.left and not root.right and not root.val: return None
-        return root
+        return root  
