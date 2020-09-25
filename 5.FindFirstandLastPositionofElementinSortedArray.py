@@ -21,4 +21,4 @@ class Solution:
             else:
                 i = mid+1
         return [-1,-1]
-        
+            
