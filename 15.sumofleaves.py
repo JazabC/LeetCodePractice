@@ -18,5 +18,5 @@ class Solution:
             if isLeft:
                 self.result += node.val
         self.dfs(node.left, True)
-        self.dfs(node.right, False)
+        self.dfs(node.right, False)    
                    
